@@ -1,0 +1,71 @@
+.projects  {
+    height: 350px;
+    width: 100%;
+    position: relative; 
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;  
+}
+.project1 {
+    background-image: url("../../assets/images/img-1-C4nS0eD8.jpg");  
+   
+}
+.project2 {
+    background-image: url("../../assets/images/img-2-D-4H1m4L.jpg");  
+   
+}
+.project3 {
+    background-image: url("../../assets/images/img-3-pR2ZEVY9.jpg");  
+   
+}
+.project4 {
+    background-image: url("../../assets/images/img-4-tHccITd-.jpg");  
+   
+}
+.project5 {
+    background-image: url("../../assets/images/img-5-lAucr__a.jpg");  
+   
+}
+.project6 {
+    background-image: url("../../assets/images/img-6-DFW03AZ3.jpg");  
+   
+}
+.project-caption{
+    background-color: #2B96ED;
+    position: absolute;
+    top:100%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.projects:hover .project-caption {
+    top: 0;
+}
+.project-caption h3 {
+    font-family: Quicksand, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+    margin-bottom: 15px;
+}
+.project-caption span  {
+    color: #ffffffb3;
+    font-size: 13px;
+}
+.icons span {
+    background-color: #ffffff80;
+    padding: 5px;
+    border-radius: 4px;
+
+}
+.icons span a {
+    color: #333;
+    font-size: 13px;
+}
+i {
+    font-size: 16px;
+    color: #333;
+}
